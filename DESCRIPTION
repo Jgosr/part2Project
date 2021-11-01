@@ -1,0 +1,19 @@
+Package: part2Project
+Title: Performs some general statisitics
+Version: 0.0.0.9000
+Authors@R: 
+    person("Amugoda", "Akalanka", , "amugoda.akalanka@mqstudents.mq.edu.au", role = c("aut", "cre"))
+Description: Performs a linear regression, t test and chi squared test 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+Imports: 
+    patchwork,
+    ggplot2,
+    broom,
+    dplyr,
+    magrittr

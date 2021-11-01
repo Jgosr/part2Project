@@ -1,0 +1,54 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# part2Project
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of part2Project is to perform statistical tests on a data set of 1000 males and females in context to their height, weight and physical actvitity
+
+## Installation
+
+You can install the released version of part2Project from Github:
+
+
+``` r
+#remotes::install_github("amugoda_akalanka/Assignment3")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(part2Project)
+## basic example code
+#Fitting linear model of height against weight
+data(project)
+mytest_lm(project)
+
+
+
+#T Test
+mytest_ttest(project)
+
+
+
+#Chi Squared Test
+mytest_chisq(project)
+```
+
+
