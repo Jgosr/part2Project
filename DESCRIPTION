@@ -17,3 +17,5 @@ Imports:
     broom,
     dplyr,
     magrittr
+URL: https://github.com/Jgosr/part2Project
+BugReports: https://github.com/Jgosr/part2Project/issues
