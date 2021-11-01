@@ -19,3 +19,6 @@ Imports:
     magrittr
 URL: https://github.com/Jgosr/part2Project
 BugReports: https://github.com/Jgosr/part2Project/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
