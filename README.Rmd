@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # part2Project
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/Jgosr/part2Project/workflows/R-CMD-check/badge.svg)](https://github.com/Jgosr/part2Project/actions)
 <!-- badges: end -->
 
 The goal of part2Project is to perform statistical tests on a data set of 1000 males and females in context to their height, weight and physical actvitity
